@@ -1,4 +1,5 @@
 import time
+import requests
 import logging
 from dotenv import load_dotenv
 import os
@@ -7,7 +8,7 @@ from sync.sync_manager import SyncManager
 
 load_dotenv(verbose=True)
 
-print("YANDEX_TOKEN:", os.getenv("YANDEX_TOKEN"))
+#print("YANDEX_TOKEN:", os.getenv("YANDEX_TOKEN"))
 
 
 def setup_logger():
